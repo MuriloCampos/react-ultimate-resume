@@ -45,8 +45,8 @@ const DEFAULT_OPTIONS = Object.freeze({
     locale: 'en',
     customization: {
         imageHeader: {
-            url: 'https://cdn.filestackcontent.com/8I2wVnCRTFxypXRYLRsp',
-            alt: 'Default Banner'
+            url: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80',
+            alt: 'Profile Banner'
         }
     },
     dismissFooter: false

@@ -80,7 +80,7 @@ const Content = ({ data, handleAddButtonClick, classes }) => {
 const ExperiencesBackComponent = ({ data, handleAddButtonClick }) => {
     const classes = useStyles();
     return (
-        <ProfileCardAnimatedBack title="Experiences">
+        <ProfileCardAnimatedBack title="Experiências">
             <Content {...{ data, handleAddButtonClick, classes }} />
         </ProfileCardAnimatedBack>
     );
