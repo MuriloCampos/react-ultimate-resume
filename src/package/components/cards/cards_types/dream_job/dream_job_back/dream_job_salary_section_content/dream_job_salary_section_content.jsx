@@ -22,7 +22,7 @@ const DreamJobSalarySectionContentComponent = ({ contractTypes, salary, averageD
             <ProfileCardSectionTitle>
                 <FormattedMessage id="Dreamjob.Back.Salary.Title" defaultMessage="Ideal yearly salary" />
             </ProfileCardSectionTitle>
-            <ProfileCardSectionText>{`${salary} k€`}</ProfileCardSectionText>
+            <ProfileCardSectionText>{`R$ ${salary}`}</ProfileCardSectionText>
         </>
     );
 };

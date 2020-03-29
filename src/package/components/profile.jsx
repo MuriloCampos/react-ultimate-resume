@@ -13,6 +13,7 @@ import { styles } from './profile_styles';
 
 import en from '../i18n/en.json';
 import fr from '../i18n/fr.json';
+import pt from '../i18n/pt.json';
 
 import '../styles/lib/slick-carousel/slick-theme.css';
 import '../styles/lib/slick-carousel/slick.css';
@@ -29,11 +30,14 @@ if (!Intl.PluralRules) {
     require('@formatjs/intl-pluralrules/dist/locale-data/en');
     // eslint-disable-next-line global-require
     require('@formatjs/intl-pluralrules/dist/locale-data/fr');
+    // eslint-disable-next-line global-require
+    require('@formatjs/intl-pluralrules/dist/locale-data/pt');
 }
 
 const messages = {
     en,
-    fr
+    fr,
+    pt
 };
 const useStyles = createUseStyles(styles);
 
