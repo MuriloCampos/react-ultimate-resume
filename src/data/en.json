@@ -1,19 +1,19 @@
 {
    "basics":{
       "name":"Murilo Campos Pereira",
-      "label":"Programador",
+      "label":"Programmer",
       "picture":"http://2.gravatar.com/avatar/d2bb09f304775e8055abde3ac0a75862",
       "email":"murilo13campos@gmail.com",
       "phone":"(66) 99685-9818",
       "website":"https://github.com/MuriloCampos",
-      "summary":"Apaixonado por tecnologias web e mobile modernas.",
+      "summary":"Passionate about web and mobile modern techs.",
       "location":{
-         "address":"Rua Joana D'angelis",
+         "address":"Joana D'angelis Street",
          "postalCode":"78735-021",
-         "city":"Rondonópolis, BR",
+         "city":"Rondonópolis",
          "countryCode":"BR",
          "region":"Mato Grosso",
-         "name":"Rondonópolis, BR"
+         "name":"My Apartment"
       },
       "profiles":[
          {
@@ -28,13 +28,13 @@
          "index":0,
          "id":"db8b94eb-d75a-41ea-87ea-8f50a0a4a593",
          "name":"infobarra",
-         "position":"Desenvolvedor Web",
+         "position":"Web Developer",
          "place":{
             "name":"Barra do Garças, MT"
          },
          "startDate":"2014-03-29",
          "endDate":"2016-10-01",
-         "summary":"Desenvolvimento de sistemas de gerenciamento interno da empresa. Sistemas Web em PHP, HTML5, Javascript e CSS. Sistemas desktop em C#.",
+         "summary":"Developed internal management systems. Web apps in PHP, HTML5, Javascript and CSS. Desktop apps in C#.",
          "location":"Barra do Garças, MT",
          "stillEmployed":false
       },
@@ -42,12 +42,12 @@
          "index":1,
          "id":"33dc691f-0aed-4053-98a5-d9f5c76603af",
          "name":"InFlux Rondonópolis",
-         "position":"Professor de Inglês",
+         "position":"English Teacher",
          "place":{
             "name":"Rondonópolis, MT"
          },
          "startDate":"2017-03-29",
-         "summary":"Planejar e lecionar aulas de inglês de todos os níveis e para todas as idades.",
+         "summary":"Planning and teaching english for all levels and ages.",
          "location":"Rondonópolis, MT"
       }
    ],
@@ -68,9 +68,9 @@
          "position":0,
          "id":"f3a52c4d-a9b9-4207-a8b0-6232b3bbab1e",
          "institution":"Universidade Federal de Mato Grosso",
-         "studyType":"Bacharelado",
+         "studyType":"Bachelors",
          "endDate":"2016-01-01",
-         "area":"Ciência da Computação"
+         "area":"Computer Science"
       }
    ],
    "awards":[
@@ -148,7 +148,7 @@
    ],
    "languages":[
       {
-         "language":"Inglês",
+         "language":"English",
          "value":100,
          "fluency":"Native speaker",
          "id":"6528a940-12e3-4698-965c-c29cc77ea09b",
@@ -157,25 +157,25 @@
       {
          "index":1,
          "id":"bf739b15-ce7f-4b3e-8333-b88fde4481d2",
-         "language":"Português",
+         "language":"Portuguese",
          "value":100
       }
    ],
    "interests":[
       {
-         "name":"Programação",
+         "name":"Programming",
          "gifUrl":"https://media.giphy.com/media/3knKct3fGqxhK/giphy.gif",
          "id":"0b24de19-e82b-4e02-b676-a23165062c95",
          "index":0
       },
       {
-         "name":"Pedalar",
+         "name":"Cycling",
          "gifUrl":"https://media.giphy.com/media/OZvMMeKdYmPpS/giphy.gif",
          "id":"5dc67132-2b78-437a-8c80-54663c69afb4",
          "index":1
       },
       {
-         "name":"Leitura",
+         "name":"Reading",
          "gifUrl":"https://media.giphy.com/media/Rd71kJXHxkNgD0oHAP/giphy.gif",
          "id":"73db537d-9067-4130-9b98-d616094b4a1c",
          "index":2
@@ -217,7 +217,7 @@
    "specific":{
       "basics":{
          "visaSponsorship":true,
-         "personalDescription":"Graduado em Ciência da Computação pela Universidade Federal de Mato Grosso\n\nProfessor de inglês na escola de idiomas inFlux\n\nLecionei aulas de linguagem C e desenvolvimento Android em projetos de extensão na Universidade Federal de Mato Grosso.\n\nAtualmente foco em desenvolvimentos Full Stack utilizando NodeJS no backend, ReactJS e React Native para o frontend. "
+         "personalDescription":"Programmer with a BSc. in Computer Science. Taught Android development(Java) and C for over 150 university undergratuates. Expertise in Mobile Development(Java, xamarin), JavaScript(NodeJS, Express, React), python and NoSQL Databases. "
       },
       "dreamJob":{
          "locations":[
@@ -267,14 +267,14 @@
             "freelance"
          ],
          "codingYears":9,
-         "codingReason":"Desenvolver soluções que melhorem a vida e aumentem a produtividade de profissionais de diversas áreas.",
+         "codingReason":"Developing solutions that improve and increase people's productivity and life quality.",
          "searchState":"activelySearching",
          "experienceYears":6
       },
       "sound":{
-         "embedUrl":"https://open.spotify.com/playlist/1dQHSZ4KjhK2BDHK3JlRk6?si=YImVb3xtRJm4lu4RceGY2Q"
+         "embedUrl":"https://open.spotify.com/embed/playlist/1dQHSZ4KjhK2BDHK3JlRk6?si=OsswpYiWTnGMhLfNAawh2A"
       },
-      "interestedBy":"Tecnologias web modernas, Machine Learning, DevOps."
+      "interestedBy":"Modern web and mobile techs, Machine Learning, DevOps."
    },
    "customization":{
       "imageHeader":{

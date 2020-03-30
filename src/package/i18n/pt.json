@@ -236,6 +236,7 @@
   "Studies.noEducation.buttonLabel": "Add a study",
   "Studies.noEducation.title": "Add here studies you have done !",
   "Studies.title": "Eu me formei na {schoolName}",
+  "Studies.Back.Title": "Formação",
   "Unsplash.SearchDialog.Title": "Procurar fotos no unsplash",
   "Unsplash.brandName": "Unsplash",
   "Unsplash.credit": "Foto de {name} em {unsplashLink}",

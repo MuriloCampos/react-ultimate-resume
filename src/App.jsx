@@ -7,7 +7,8 @@ import cloneDeep from 'lodash/cloneDeep';
 import download from 'downloadjs';
 import { Button } from '@wld/ui';
 
-import JsonStub from './data/json_stub.json';
+import pt from './data/pt.json';
+import en from './data/en.json';
 import DeveloperProfile from './package';
 import { ReactComponent as SaveIcon } from './package/assets/icons/drop_file.svg';
 
@@ -25,7 +26,8 @@ const mergeFunction = (objValue, srcValue, key) => {
 const mode = 'readOnly';
 function App() {
     const classes = useStyles();
-    const [data, setData] = useState(JsonStub);
+    const [data, setData] = useState(pt);
+    const [locale, setLocale] = useState('pt');
 
     const onEdit = useCallback(newData => setData(mergeWith(cloneDeep(data), newData, mergeFunction)), [
         JSON.stringify(data)
@@ -46,6 +48,14 @@ function App() {
         );
     }, [JSON.stringify(data), JSON.stringify(customization)]);
 
+    function handleSwitchLocale(newLocale) {
+        setLocale(newLocale);
+
+        if (newLocale === 'pt') {
+            setData(pt);
+        } else setData(en);
+    }
+
     return (
         <DeveloperProfile
             mode={mode}
@@ -57,7 +67,7 @@ function App() {
                 apiKeys: {
                     giphy: process.env.REACT_APP_GIPHY
                 },
-                locale: 'pt',
+                locale,
                 endpoints: {
                     devicons:
                         'https://firebasestorage.googleapis.com/v0/b/jechercheundev.appspot.com/o/technologies%2Ftechnologies_list.json?alt=media&token=459028ba-d9bc-4480-a3c4-88633afab7e2'
@@ -66,11 +76,20 @@ function App() {
             }}
             additionalNodes={{
                 banner: {
-                    actionsButtons: mode === 'edit' && (
+                    actionsButtons: mode === 'edit' ? (
                         <Button variant="outlined" onClick={handleClick} color={'light'}>
                             <SaveIcon className={classes.saveIcon} />
                             <FormattedMessage id="Profile.header.jsonResume.download" defaultMessage="Export" />
                         </Button>
+                    ) : (
+                        <>
+                        <Button variant="outlined" onClick={() => handleSwitchLocale('pt')} color={'light'}>
+                            <FormattedMessage id="Profile.header.jsonResume.download" defaultMessage="pt" />
+                        </Button>
+                        <Button variant="outlined" onClick={() => handleSwitchLocale('en')} color={'light'}>
+                            <FormattedMessage id="Profile.header.jsonResume.download" defaultMessage="en" />
+                        </Button>
+                        </>
                     )
                 }
             }}

@@ -16,12 +16,11 @@
         "build:messages": "NODE_ENV=production babel ./src >/dev/null",
         "serve": "react-scripts build && serve build",
         "manage:translations": "node ./translationRunner.js",
-        "gh-deploy" : "yarn build && gh-pages -d build"
+        "gh-deploy": "yarn build && gh-pages -d build"
     },
     "author": "",
     "license": "ISC",
     "peerDependencies": {
-        "@material-ui/core": "^4.8.3",
         "@wld/ui": "https://github.com/welovedevs/wld-design-system.git#v1.1.6-8",
         "formik": "^2.1.2",
         "react": "^16.12.0",
@@ -68,8 +67,8 @@
         "@babel/preset-react": "^7.9.4",
         "babel-plugin-css-modules-transform": "^1.6.2",
         "babel-plugin-inline-react-svg": "^1.1.1",
-        "babel-plugin-transform-import-styles": "^0.0.11",
         "babel-plugin-react-intl": "^7.0.0",
+        "babel-plugin-transform-import-styles": "^0.0.11",
         "eslint": "^6.8.0",
         "eslint-config-airbnb": "^18.0.1",
         "eslint-plugin-babel": "^5.3.0",
@@ -103,8 +102,7 @@
         ]
     },
     "husky": {
-        "hooks": {
-        }
+        "hooks": {}
     },
     "lint-staged": {
         "*.+(js|jsx|scss)": [
